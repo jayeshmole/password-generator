@@ -10,7 +10,7 @@ function App() {
   let [symbols, setSymbols] = useState(false);
   let [passwordlen, setPasswordLen] = useState(10);
   let [fpass, setFpass] = useState('');
-  let [isGenerated, setIsGenerated] = useState(false);  // Track if password was generated
+  let [isGenerated, setIsGenerated] = useState(false);  
 
   let createPassword = () => {
     let finalPass = '';
